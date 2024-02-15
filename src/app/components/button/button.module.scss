@@ -1,0 +1,15 @@
+.button {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    gap: 11px;
+    border: 1px solid var(--primary_03);
+    border-radius: 42px;
+    transition: all 0.2s ease-in-out;
+    line-height: 28.8px;
+    font-weight: 700;
+    cursor: pointer;
+        span {
+            font-size: 18px;
+        }
+}

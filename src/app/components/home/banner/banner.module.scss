@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    height: 780px;
+    width: 1920px;
+}
+
+.display {
+    display: grid;
+    gap: 10px;
+    position: absolute;
+    top: 192px;
+    left: 197px;
+    height: 395px;
+    width: 550px;
+    padding: 55px 58px;
+    z-index: 2;
+    border-radius: 29px;
+    background-color: var(--white);
+    opacity: 0.85;
+}
+
+.top {
+    font-size: 50px;
+    line-height: 58px;
+    font-weight: 700;
+    color: var(--primary_03);
+}
+
+.button_container {
+    display: flex;
+    gap: 13px;
+    height: 61px;
+}

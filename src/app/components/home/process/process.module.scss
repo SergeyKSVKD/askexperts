@@ -1,0 +1,128 @@
+.background {
+    display: grid;
+    justify-items: center;
+    padding: 170px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 508px 574px;
+    gap: 118px;
+    justify-content: center;
+    width: 1200px;
+    height: 724px;
+}
+
+.process_container {
+    display: grid;
+    gap: 16px;
+    height: 262px;
+}
+
+.clients_container {
+    display: grid;
+    gap: 16px;
+    height: 262px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 127px;
+    height: 24px;
+    border-radius: 20px;
+    padding: 0px 16px 0px 16px;
+    background-color: var(--primary_02);
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 23.6px;
+    color: var(--secondary_02);
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 319px;
+    height: 24px;
+    border-radius: 20px;
+    padding: 0px 16px 0px 16px;
+    background-color: var(--primary_01);
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 23.6px;
+    color: var(--primary_03);
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52.2px;
+    color: var(--primary_03);
+    text-align: left;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 23.6px;
+    color: var(--secondary_03);
+}
+
+.process_list {
+    display: grid;
+    grid-template-columns: 460px;
+    grid-template-rows: repeat(3, 110px);
+    gap: 28px;
+    margin-top: 60px;
+}
+
+.clients_list {
+    display: grid;
+    grid-template-columns: repeat(2, 280px);
+    grid-template-rows: repeat(2, 222px);
+    gap: 10px 14px;
+    margin-top: 30px;
+}
+
+.card {
+    display: grid;
+    gap: 22px;
+    padding: 33px 23px;
+    border-radius: 20px;
+    background: rgba(235, 235, 235, 1);
+}
+
+.card_title { 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.2px;
+    color: var(--primary_03);
+}
+
+.card_text {
+    font-size: 16px;
+    line-height: 23.6px;
+    color: var(--secondary_03);
+}
+
+.process {
+    display: grid;
+    grid-template-columns: 52px 332px;
+    gap: 16px;
+}
+
+.process_title { 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.2px;
+    color: var(--primary_03);
+}
+
+.process_text {
+    font-size: 16px;
+    line-height: 23.6px;
+    color: var(--secondary_03);
+}

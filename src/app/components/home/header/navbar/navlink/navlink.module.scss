@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.active_icon {
+    svg {
+        fill: var(--green)
+    }
+    circle {
+        stroke: var(--green);
+    }
+}
+
+.link {
+    color: var(--white);
+}
+
+.active {
+    color: var(--green);
+}

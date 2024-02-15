@@ -1,0 +1,33 @@
+.background {
+    display: grid;
+    justify-items: center;
+    padding: 50px 0;
+}
+
+.counters {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    align-items: center;
+    width: 895px;
+    gap: 135px;
+}
+
+.count {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    line-height: 58px;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--primary_03);
+}
+
+.count_text {
+    line-height: 20.88px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary_03);
+}
