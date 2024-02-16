@@ -1,0 +1,133 @@
+.background {
+    display: grid;
+    justify-items: center;
+    padding: 170px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 24px 184px 211px;
+    justify-items: center;
+    gap: 23px;
+    width: 654px;
+    height: 475px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 24px;
+    border-radius: 20px;
+    padding: 0px 16px 0px 16px;
+    background-color: var(--primary_02);
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 23.6px;
+    color: var(--secondary_02);
+}
+
+.quote { 
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.4px;
+    text-align: center;
+    color: rgba(206, 206, 206, 1);
+        span {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 46.4px;
+            text-align: center;
+            color: var(--primary_03);
+        }
+}
+
+.user {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 125px 210px 125px;
+    gap: 97px;
+    transform: translateY(10px);
+    width: 654px;
+}
+
+.avatar {
+    position: relative;
+    width: 210px;
+    height: 211px;
+        img {
+            border-radius: 50%;
+        }
+}
+
+.arrow {
+    width: 125px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    border-radius: 42px;
+    color: var(--light_gray);
+    background-color: rgba(243, 243, 243, 1);
+    text-align: center;
+        &:hover {
+            cursor: pointer;
+            svg {
+                fill: var(--primary_01);
+            }
+            circle {
+                fill: var(--primary_01);
+            }
+            path {
+                stroke: var(--primary_03);
+            }
+        }
+}
+
+.prev {
+    display: grid;
+    align-items: center;
+    padding: 0px 17px 0px 5px;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-around;
+}
+
+.next {
+    display: grid;
+    align-items: center;
+    padding: 0px 5px 0px 17px;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-around;
+    svg {
+        transform: rotate(180deg);
+    }
+}
+
+.name {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 210px;
+    height: 80px;
+    position: absolute;
+    top: 211px;
+    padding-top: 26px;
+}
+
+.name_text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.2px;
+    color: var(--primary_03);
+}
+
+.professions {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.2px;
+    color: var(--primary_02);
+}
+

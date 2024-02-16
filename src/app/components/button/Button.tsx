@@ -22,13 +22,15 @@ const Button: React.FC<ButtonProps> = ({
     text = 'click',
     color = 'white',
     textColor = 'light_gray',
-    onClick
+    onClick,
+    style,
 }) => {
 
     return <div className={styles.button}
         style={{
             backgroundColor: `var(--${color})`,
-            padding: `var(--${padding})`
+            padding: `var(--${padding})`,
+            ...style,
         }}
         onClick={onClick}
     >
